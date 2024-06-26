@@ -1,25 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
 }
 
-.container{
+.medicineImage img {
     width: 100%;
 }
 
-.headerHero{
+.container {
+    width: 100%;
+}
+
+.headerHero {
     background-image: url(./images/heroBack.png);
     background-repeat: no-repeat;
     background-size: cover;
     /* height: 100vh; */
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -28,18 +32,18 @@ header{
     align-items: center;
 }
 
-nav ul{
+nav ul {
     display: flex;
     gap: 2rem;
 }
 
-li{
+li {
     list-style: none;
     color: #fff;
     font-family: Montserrat;
 }
 
-.btn button{
+.btn button {
     background: rgba(27, 199, 104, 1);
     font-family: Montserrat;
     font-size: 16px;
@@ -53,7 +57,7 @@ li{
     font-family: Montserrat;
 }
 
-.hero{
+.hero {
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -61,7 +65,7 @@ li{
     /* margin-bottom: -.3rem; */
 }
 
-.heroText h2{
+.heroText h2 {
     font-family: Montserrat;
     font-size: 40px;
     font-weight: 900;
@@ -70,7 +74,7 @@ li{
 
 }
 
-.heroText p{
+.heroText p {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
@@ -79,31 +83,31 @@ li{
     padding: 1rem 0;
 }
 
-.heroImage img{
+.heroImage img {
     width: 100%;
 }
 
 
-.heroText{
+.heroText {
     width: 40%;
     margin-top: 8rem;
 }
 
-.heroImage{
+.heroImage {
     width: 40%;
     margin-left: 3rem;
 }
 
-.heroImage img{
+.heroImage img {
     width: 100%;
     margin-top: 6rem;
 }
 
-.heroBtn button{
+.heroBtn button {
     font-family: Montserrat;
     font-size: 16px;
     border: 1px solid #fff;
-    padding: .5rem 2rem;
+    padding: .5rem 1.5rem;
     border-radius: 50px;
     cursor: pointer;
     background: none;
@@ -111,28 +115,28 @@ li{
     margin-right: 1.1rem;
 }
 
-.heroBtn button:hover{
+.heroBtn button:hover {
     background: #fff;
     color: blue;
 }
 
 
-.heroBtn{
+.heroBtn {
     margin-bottom: 2rem;
 }
 
-.heroForm{
+.heroForm {
     width: 100%;
 }
 
-.heroForm input{
+.heroForm input {
     width: 70%;
     padding: .7rem;
     border: none;
     border-radius: 50px 0px 0px 50px;
 }
 
-.heroForm button{
+.heroForm button {
     width: 20%;
     padding: .7rem;
     background: rgba(27, 199, 104, 1);
@@ -144,17 +148,17 @@ li{
 }
 
 
-.innerContainer{
+.innerContainer {
     width: 80%;
     margin: auto;
 }
 
-.affiliation{
+.affiliation {
     text-align: center;
     margin-top: 3rem;
 }
 
-.topAffiliate h2{
+.topAffiliate h2 {
     font-family: Montserrat;
     font-size: 36px;
     /* font-weight: 900; */
@@ -162,26 +166,26 @@ li{
     color: rgba(4, 60, 170, 1);
 }
 
-.lines{
+.lines {
     display: flex;
     width: 10%;
     margin: auto;
 }
 
-.blue{
+.blue {
     width: 45.5px;
     border: 2px solid rgba(4, 60, 170, 1);
     border-radius: 50px 0 0 50px;
 }
 
-.green{
+.green {
     width: 45.5px;
     border: 2px solid rgba(27, 199, 104, 1);
     border-radius: 0px 50px 50px 0px;
 }
 
 
-.affiliateImages{
+.affiliateImages {
     display: flex;
     gap: 5rem;
     width: 40%;
@@ -190,7 +194,19 @@ li{
     margin-bottom: 3rem;
 }
 
-.topBenefits h2{
+.juhel img {
+    width: 100%;
+}
+
+.emzor img {
+    width: 100%;
+}
+
+.gsk img {
+    width: 100%;
+}
+
+.topBenefits h2 {
     font-family: Montserrat;
     font-size: 36px;
     line-height: 49.18px;
@@ -198,28 +214,28 @@ li{
     text-align: center;
 }
 
-.medicine{
+.medicine {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
-.option{
+.option {
     display: flex;
     align-items: center;
     gap: .7rem;
     margin-top: 1rem;
 }
 
-.optionText p{
+.optionText p {
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.59px;
 }
 
-.medicineText h5{
+.medicineText h5 {
     font-family: Montserrat;
     font-size: 24px;
     line-height: 32.78px;
@@ -229,7 +245,7 @@ li{
 }
 
 
-.medicineText button{
+.medicineText button {
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 500;
@@ -242,26 +258,28 @@ li{
     margin-top: 2rem;
 }
 
-.medicineText button:hover{
+.medicineText button:hover {
     background: rgba(27, 199, 104, 1);
     color: #fff;
 }
 
-footer{
+footer {
     background-color: rgba(4, 60, 170, 1);
 }
-.footcontainer{
+
+.footcontainer {
     width: 80%;
     margin: auto;
     padding: 2rem 0;
 }
 
-.signUp{
+.signUp {
     display: flex;
     justify-content: space-between;
 }
-.signUpText h3{
-    font-family: Montserrat ;
+
+.signUpText h3 {
+    font-family: Montserrat;
     font-size: 24px;
     font-weight: 400;
     line-height: 32.78px;
@@ -269,7 +287,8 @@ footer{
     padding-bottom: 1rem;
 
 }
-.signUpText p{
+
+.signUpText p {
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 200;
@@ -278,14 +297,15 @@ footer{
 
 }
 
-.signUpinput input{
+.signUpinput input {
     padding: .7rem;
     border: 1px solid white;
     border-radius: 50px 0px 0px 50px;
     width: 70%;
     margin-top: 1rem;
 }
-.signUpinput button{
+
+.signUpinput button {
     padding: .7rem;
     background: rgba(27, 199, 104, 1);
     color: #fff;
@@ -296,14 +316,17 @@ footer{
     width: 30%;
     font-family: Montserrat;
 }
-.signUpText{
+
+.signUpText {
     width: 40%;
 
 }
-.signUpinput{
+
+.signUpinput {
     width: 40%;
 }
-.signUpinput label{
+
+.signUpinput label {
     font-family: Montserrat;
     font-size: 18px;
     color: #fff;
@@ -312,7 +335,312 @@ footer{
     margin-bottom: 1rem;
 }
 
+.footContact {
+    display: flex;
+    margin-top: 5rem;
+}
 
+.serviceSide {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.logoSide {
+    width: 40%;
+}
+
+.logoSide p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24.59px;
+    width: 50%;
+    color: #fff;
+}
+
+.serviceSide h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32.78px;
+    padding-bottom: 1rem;
+    color: #fff;
+
+}
+
+.serviceSide li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32.78px;
+    padding-bottom: 0.7rem;
+    color: #fff;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 37.78px;
+    color: #fff;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .heroText h2 {
+
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 65.57px;
+
+
+    }
+
+    .heroText p {
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.59px;
+
+        padding: 1rem 0;
+    }
+
+    .heroText {
+        width: 50%;
+        margin-top: 8rem;
+    }
+
+    .affiliateImages {
+
+        gap: 5rem;
+        width: 60%;
+    }
+
+    .medicineText h5 {
+        width: 70%;
+    }
+
+    .optionText p {
+        font-size: 16px;
+    }
+
+    .signUpinput {
+        width: 50%;
+    }
+
+    .serviceSide {
+        gap: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .heroText {
+        width: 62%;
+    }
+
+    .heroText h2 {
+        font-size: 30px;
+        line-height: 45.57px;
+    }
+
+    .heroText p {
+        font-size: 14px;
+    }
+
+    .heroImage {
+        width: 40%;
+    }
+
+    .medicine {
+        width: 80%;
+        margin-top: 3rem;
+    }
+
+    .medicineText h5 {
+        width: 85%;
+        font-size: 20px;
+    }
+
+    .medicineText li {
+        font-size: 11px;
+    }
+
+    .medicineText button {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .clientText h2 {
+        font-size: 26px;
+        line-height: 49.18px;
+        font-weight: 600;
+    }
+
+    .clientText h5 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .clientText p {
+        font-size: 12px;
+    }
+
+    .signUpText h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .signUpText p {
+        font-size: 14px;
+    }
+
+    .signUpinput input {
+        width: 65%;
+    }
+
+    .signUpinput button {
+        width: 35%;
+        font-size: 12px;
+    }
+
+    .logoSide p {
+        width: 60%;
+    }
+
+    .serviceSide {
+        gap: 2rem;
+    }
+
+    .logoSide p,
+    .serviceSide h4,
+    .serviceSide li {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .hero {
+        display: block;
+    }
+
+    .heroText,
+    .heroImage {
+        width: 100%;
+    }
+
+    .heroBtn button {
+        padding: 0.5rem 1.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .heroForm button {
+        width: 25%;
+    }
+
+    .affiliation {
+        width: 80%;
+        margin: auto;
+    }
+
+    .affiliateImages {
+        gap: 2rem;
+        margin: 2rem 0;
+    }
+
+    .lines {
+        display: flex;
+        width: 25%;
+        margin: auto;
+    }
+
+    .topAffiliate h2,
+    .topBenefits h2 {
+        font-size: 30px;
+    }
+
+    .medicine {
+        flex-direction: column-reverse;
+    }
+
+    .medicineText h5 {
+        font-size: 20px;
+        width: 70%;
+    }
+
+    .optionText p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .clients {
+        margin: 2rem 0;
+    }
+
+    .clientImage,
+    .logoSide,
+    .affiliateImages,
+    .signUpText,
+    .signUpinput,
+    .logoSide p {
+        width: 100%;
+    }
+
+    .clientText {
+        padding: 0;
+        margin-top: 1rem;
+        width: 80%;
+    }
+
+    .clientText p,
+    .clientText h5 {
+        font-size: 14px;
+    }
+
+    .clientText h2 {
+        font-size: 30px;
+        margin-bottom: 0.5rem;
+    }
+
+    .clients,
+    .signUp,
+    .footContact,
+    .doorStep {
+        flex-direction: column;
+    }
+
+    .signUpText,
+    .signUpinput {
+        margin: 1rem 0;
+    }
+
+    .signUpText h3 {
+        font-size: 24px;
+    }
+
+    .signUpText p {
+        font-size: 14px;
+    }
+
+    .logoSide {
+        margin-bottom: 2rem;
+    }
+
+    .serviceSide {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+
+}
 
 
 /* ASSIGNMENT
